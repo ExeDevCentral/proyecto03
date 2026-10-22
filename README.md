@@ -1,64 +1,47 @@
-# Proyecto 03 JS - Ejercicios y Prácticas de JavaScript
+<div align="center">
 
-Este repositorio contiene una colección de mini-proyectos desarrollados en **HTML, CSS y JavaScript**.  
-El objetivo es practicar conceptos clave de programación web mediante ejemplos sencillos y funcionales.
+# Web JS Lab • Event-Driven Web Architecture & Audio Synthesis
+### *7 Focused DOM Modules, Web Audio API Triggers, Interval Timers & Interactive Forms*
 
-## **Contenido de los proyectos**
+[![JavaScript: ES6+](https://img.shields.io/badge/JavaScript-ES6%2B_DOM_API-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/)
+[![Web Audio API](https://img.shields.io/badge/Audio-HTML5_Audio_Events-orange?style=for-the-badge)](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
+[![Semantic HTML5](https://img.shields.io/badge/HTML5-Semantic_Layout-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-### 1. Saludo
-- Interfaz básica con un mensaje de bienvenida.
-- Uso de etiquetas HTML y estilos CSS personalizados.
+<p align="center">
+  A laboratory of 7 self-contained JavaScript modules exploring browser runtime fundamentals: event dispatching, DOM manipulation, asynchronous timer intervals, and HTML5 multimedia playback.
+</p>
 
-### 2. Ingreso de Usuario
-- Formulario para ingresar datos del usuario.
-- Interacción básica con el DOM para mostrar el resultado.
-
-### 3. Variables
-- Ejemplos del uso de variables en JavaScript.
-- Diferencias entre `let`, `const` y `var`.
-
-### 4. Tipos de Datos
-- Demostración de los tipos de datos primitivos en JS (números, cadenas, booleanos).
-- Conversión de tipos y ejemplos prácticos.
-
-### 5. Mostrar Ingresos
-- Formulario con campos de entrada.
-- Captura y visualización de datos en pantalla.
-
-### 6. Temporizador
-- Temporizador con botón de activación.
-- Cambio dinámico de texto y color al cumplirse el tiempo.
-
-### 7. Sonidos
-- Reproducción de audios al presionar un botón.
-- Uso de elementos `<audio>` y eventos de JS.
-
-### 8. Fecha y Hora
-- Muestra la fecha y hora en tiempo real.
-- Actualización dinámica usando `setInterval`.
-
-### 9. Proyecto Día 3
-- Proyecto integrador con estilos y efectos.
-- Incluye sonidos y lógica de juego (Game Over).
+</div>
 
 ---
 
-## **Tecnologías utilizadas**
-- **HTML5**: Estructura de los proyectos.
-- **CSS3**: Estilos y diseño visual.
-- **JavaScript (ES6)**: Lógica y manipulación del DOM.
+## 🧪 Laboratory Modules
+
+1. **DOM Greetings (`1 - Saludo`):** Event listeners capturing user interactions and updating live greeting nodes.
+2. **User Input Stream (`2 - Ingreso de Usuario`):** Sanitized form field capturing and text node rendering.
+3. **Variable Scope & Types (`3 - Variables`):** Memory allocation with `let`, `const`, and primitive mutations.
+4. **Data Type Inspecting (`4 - Tipos de Datos`):** Type coercion, primitive checking (`typeof`), and validation.
+5. **Real-Time Data Feed (`5 - Mostrar Ingresos`):** Dynamic list appending from continuous user inputs.
+6. **High-Precision Timers (`6 - Temporizador`):** Asynchronous `setInterval` and `clearInterval` clock loops.
+7. **Audio Event Triggers (`7 - Sonidos`):** Event-triggered interactive audio playback on click actions.
 
 ---
 
-## **Objetivo**
-Estos ejercicios fueron diseñados para mejorar la comprensión de conceptos fundamentales de JavaScript, como:
-- Manejo de variables y tipos de datos.
-- Interacción con el DOM.
-- Eventos y funciones.
-- Control de tiempo (`setTimeout`, `setInterval`).
-- Integración de audio y multimedia.
+## 🚀 Quickstart
+
+```bash
+# Clone the repository
+git clone https://github.com/ExeDevCentral/proyecto03.git
+cd proyecto03
+
+# Open any module (e.g., Timers)
+xdg-open "Proyecto 03 JS/6 - Temporizador/index.html"
+```
 
 ---
 
-## **Autor**
-Desarrollado por Exequiel Echevarria – *Aprendiendo y creando con JavaScript.*
+## 👨‍💻 Author
+
+**Exequiel Echevarria**
+- GitHub: [@ExeDevCentral](https://github.com/ExeDevCentral)
