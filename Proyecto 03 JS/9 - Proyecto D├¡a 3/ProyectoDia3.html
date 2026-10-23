@@ -1,9 +1,11 @@
 <!DOCTYPE html>
     <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Responde Rápido</title>
         <link rel="stylesheet" href="misEstilos.css">
     </head>
     <body onload="comenzarCuentaRegresiva()">
+<div class="quiz-card">
         <h2>Responde a las preguntas lo mas rapido que puedas <span id="cuentaRegresiva"></span></h2>
         <p>1. Cual es la capital de Francia?</p>
         <input type="text" id="respuesta1">
@@ -15,10 +17,12 @@
         <input type="text" id="respuesta4">
         <p>5. Nombre de los 4 Beatles</p>
         <input type="text" id="respuesta5">
-        <br><br>
+        <div class="btn-group">
         <button onclick="finalizado()">Terminé!</button>
         <br><br>
         <button onclick="volverAIntentar()">Volver a Intentar</button>
+        </div>
+</div>
 
         <audio id="audioFinal">
             <source src="gameover.mp3" type="audio/mpeg">
