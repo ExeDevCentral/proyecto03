@@ -2,20 +2,18 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
-
 | Version | Supported          |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| Latest  | :white_check_mark: |
+| Older   | :x:                |
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+If you discover a security vulnerability within this project, please send an e-mail to Exequiel Echevarria via [exemetal@hotmail.com](mailto:exemetal@hotmail.com).
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Please include the following details in your report:
+- A description of the issue and potential impact
+- Steps to reproduce or proof-of-concept
+- Any relevant logs, screenshots, or code references
+
+All security vulnerabilities will be reviewed promptly. Please do not open public issues regarding security vulnerabilities until they have been acknowledged and resolved.
